@@ -11,7 +11,7 @@ Resources:
       InstanceType: t2.micro
       KeyName: firstkey
       SecurityGroups: 
-        - cfn-sec-group
+        - aa.second
       Tags: 
         - Key: Name
           Value: kittenscarousel
