@@ -14,7 +14,7 @@ Resources:
         - aa.second
       Tags: 
         - Key: Name
-          Value: Abdullah_Cfn_Instance
+          Value: AbdullahCfnInstance
       UserData: 
         Fn::Base64:
           !Sub |
@@ -29,4 +29,4 @@ Resources:
           wget https://raw.githubusercontent.com/bndnzabd/my-projects/main/aws/Project-101-kittens-carousel-static-website-ec2/static-web/cat1.jpg
           wget https://raw.githubusercontent.com/bndnzabd/my-projects/main/aws/Project-101-kittens-carousel-static-website-ec2/static-web/cat2.jpg
           wget https://raw.githubusercontent.com/bndnzabd/my-projects/main/aws/Project-101-kittens-carousel-static-website-ec2/static-web/cat3.png
-          wgethtml
+          wget https://raw.githubusercontent.com/bndnzabd/my-projects/main/aws/Project-101-kittens-carousel-static-website-ec2/static-web/index.html
